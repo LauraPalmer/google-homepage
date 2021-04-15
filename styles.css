@@ -37,8 +37,6 @@ input {
 
 a {
     text-decoration: none;
-    color: #000;
-    opacity: 0.75;
     list-style-type: none;
     padding-right: 12px;
 }
@@ -57,7 +55,6 @@ li {
 .top-left-navbar {
     display: inline;
     color: #000;
-    opacity: 0.75;
     margin-left: 4%;
     float: left;
     line-height: 24px;
@@ -69,7 +66,6 @@ li {
 .top-right-navbar {
     display: inline;
     color: #000;
-    opacity: 0.75;
     float: right;
     line-height: 24px;
     font-family: arial, sans-serif;
@@ -85,7 +81,25 @@ li {
     text-align: right;
 }
 
-.
+#apps-icon {
+    position: absolute;
+    top: 25px;
+}
+
+button {
+    border-radius: 2px!important; 
+    outline: none !important; 
+    border: 1px solid #4285f4 !important;
+    top: 25px !important;
+    font-weight: bold !important;
+    background-color:  #4285f4 !important;
+    opacity: 1 !important;
+    color: white !important;
+   height: 30px;
+}
+
+
+
 
 
 
