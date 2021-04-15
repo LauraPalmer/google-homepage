@@ -13,7 +13,7 @@ input {
     background-image: url('search_black_24dp.svg'), url('mic_black_24dp.svg');
     background-repeat: no-repeat;
     background-position: left, right;
-    background-position-x: 10px, 600px;
+    background-position-x: 10px, 505px;
     padding-left: 50px;
     width: 600px;
     height: 40px;
@@ -38,7 +38,10 @@ input {
 a {
     text-decoration: none;
     list-style-type: none;
-    padding-right: 12px;
+    color: black;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    
 }
 
 
@@ -52,38 +55,45 @@ li {
     display: inline;
 }
 
-.top-left-navbar {
-    display: inline;
-    color: #000;
-    margin-left: 4%;
-    float: left;
-    line-height: 24px;
-    font-family: arial, sans-serif;
-    font-size: 13px;
-    padding: 2%;
-}
 
-.top-right-navbar {
-    display: inline;
-    color: #000;
-    float: right;
-    line-height: 24px;
-    font-family: arial, sans-serif;
-    font-size: 13px;
-    padding: 2%;
-}
 
 .navbar {
-    min-width: 165px;
-    padding-left: 30px;
-    padding-right: 30px;
-    position: relative;
-    text-align: right;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    font-family: arial, sans-serif;
+    color: black;
+    padding: 2%;
 }
 
-#apps-icon {
-    position: absolute;
-    top: 25px;
+.flex-item-1 {
+    flex-grow: 1;
+}
+
+
+.flex-item-2 {
+    flex-grow: 2;
+}
+
+.flex-item-3 {
+    flex-grow: 10;
+}
+
+.flex-item-4 {
+    flex-grow: 2;
+}
+
+.flex-item-5 {
+    flex-grow: 2;
+}
+
+.flex-item-6 {
+    flex-grow: 2;
+}
+
+.flex-item-7 {
+    flex-grow: 2;
 }
 
 button {
@@ -95,7 +105,15 @@ button {
     background-color:  #4285f4 !important;
     opacity: 1 !important;
     color: white !important;
-   height: 30px;
+    height: 30px;
+}
+
+.signin-button {
+    color: white;
+}
+
+.top-links {
+    color: black;
 }
 
 
