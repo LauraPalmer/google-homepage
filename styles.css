@@ -15,7 +15,7 @@ input {
     background-position: left, right;
     background-position-x: 10px, 505px;
     padding-left: 50px;
-    width: 600px;
+    width: 500px;
     height: 40px;
     border: none;
     
@@ -32,20 +32,52 @@ input {
 .textbox {
     border: 1px solid #dfe1e5;
     border-radius: 20px;
-    width: 700px;
+    width: 500px;
 }
 
-a {
+
+.top-left-links {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    padding-right: 10%;
+}
+
+.top-right-links {
     text-decoration: none;
     list-style-type: none;
     color: black;
     font-family: arial, sans-serif;
     font-size: 13px;
-    
+    display: flex;
+    flex-wrap: nowrap;
 }
 
+.flex-item-3a {
+    padding-right: 5%;
+}
 
+.flex-item-3b {
+    padding-right: 5%;
+}
 
+.flex-item-3b {
+    padding-right: 5%;
+}
+
+.flex-item-3c {
+    padding-right: 5%;
+}
+
+.flex-item-3d {
+    padding-right: 5%;
+}
+
+.flex-item-3e {
+    padding-right: 5%;
+}
 
 ul {
     list-style-type: none;
@@ -55,45 +87,37 @@ li {
     display: inline;
 }
 
-
+.top-right-flex {
+    display: flex;
+    flex-wrap: nowrap;
+}
 
 .navbar {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
-    align-items: center;
     font-family: arial, sans-serif;
     color: black;
-    padding: 2%;
+    margin-top: 0;
+    padding: 1% 1% 0 1%;
 }
 
 .flex-item-1 {
     flex-grow: 1;
 }
 
-
 .flex-item-2 {
-    flex-grow: 2;
+    flex-grow: 5;
 }
 
 .flex-item-3 {
-    flex-grow: 10;
-}
+    flex-grow: 1;
+    display: flex;
+    padding-right: 0;
+    margin-right: 0;
+    justify-content: center;
+    align-items: center;
 
-.flex-item-4 {
-    flex-grow: 2;
-}
-
-.flex-item-5 {
-    flex-grow: 2;
-}
-
-.flex-item-6 {
-    flex-grow: 2;
-}
-
-.flex-item-7 {
-    flex-grow: 2;
 }
 
 button {
@@ -115,6 +139,50 @@ button {
 .top-links {
     color: black;
 }
+
+#app-image {
+    margin-top: 0;
+}
+
+footer {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #f2f2f2;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 2.5rem;
+    flex: 100%;
+    align-items: center;
+}
+
+.body-container {
+    min-height: 100vh;
+    position: relative;
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;
+}
+
+.footer-item {
+    flex-grow: 1;
+    align-items: center;
+}
+
+.bottom-links {
+    color: #222;
+    opacity: 0.75;
+    text-decoration: none;
+}
+
+.footer-item-space {
+    flex-grow: 5;
+}
+
+
+
+
 
 
 
