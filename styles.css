@@ -199,3 +199,23 @@ footer {
 .search-buttons {
    padding-top: 10%;
 }
+
+.search-buttons-ind {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa !important;
+    margin: 11px 4px;
+    -webkit-appearance: none;
+    padding: 0 16px;
+    font-size: 14px;
+    margin: 11px 4px;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+
+}
